@@ -1,0 +1,279 @@
+
+body{
+  font-size:18px;
+  font-family: 'Lusitana', serif;
+  letter-spacing: 0.7px;
+  }
+
+  body p{
+  line-height:25px;
+    }
+
+    h1{
+      font-weight: 900;
+    }
+  .no-padding{
+padding:0;
+  }
+
+  .section_padding{
+  background-color:#605ea4;
+  padding: 5% 15% 0 15%;
+  color:white;
+  background-size: cover;
+}
+
+.header{
+    background-image: url("marquee.png");
+    height:80%;
+}
+.header h1{
+  margin-top: 50px;
+}
+
+.sections{
+background-color:white;
+padding: 5% 15% 0 15%;
+color:black;
+text-align: center;
+padding-bottom:100px;
+}
+
+.sections img{
+width:50%;
+height:auto;
+margin:0 auto;
+
+-webkit-transition: all 0.15s ease;
+     -moz-transition: all 0.15s ease;
+       -o-transition: all 0.15s ease;
+      -ms-transition: all 0.15s ease;
+          transition: all 0.15s ease;
+
+}
+
+.sections img:hover{
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+.section_padding h1{
+  font-size:64px;
+}
+
+.section_padding .buttons img{
+  width:100%;
+  height:auto;
+}
+
+.txt-wrapper{
+  height:200px;
+}
+
+.header_image{
+paddint:10%;
+  }
+
+  .header_image img{
+  width:100%;
+  height:auto;
+    }
+
+.sections .col-md-4{
+text-align: center;
+padding-top: 50px;
+}
+
+.sections .col-md-4 p{
+font-weight:regular;
+padding-top:30px;
+}
+
+.titles{
+  text-align:center;
+  font-weight:bold;
+  padding-top:100px;
+
+}
+
+#section2{
+   background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+  color:white;
+  padding-top: 50px;
+  padding-bottom:50px;
+}
+
+#section3{
+background-color:white;
+color:black;
+padding-top:100px;
+padding-bottom:100px;
+}
+#menu{
+  height: 450px;
+    width: auto;
+}
+
+#section3 img{
+  width:100%;
+  height:auto;
+}
+
+#section3 p{
+width:70%;
+padding-top:15px;
+}
+
+.features-wrapper{
+      margin-bottom: 60px;
+}
+
+#section4{
+      background-image: url("noge.png");
+      background-size:cover;
+      text-align:center;
+      color:white;
+      padding-left:35%;
+      padding-right:35%;
+      padding-top:50px;
+      padding-bottom:50px;
+}
+
+.circle{
+  background-color:white;
+  border-radius:50%;
+  height:120px;
+  width:120px;
+  text-align:center;
+  margin:0 auto;
+}
+
+.buttons{
+      width:50%;
+      height:auto;
+      display:inline-block;
+      float:left;
+      margin-top:20px;
+}
+
+.kamion{
+  width:80%;
+  height:auto;
+  margin-top:12px;
+
+}
+.bullet{
+  padding-top: 55px;
+}
+
+#section5{
+  background-color:#393e65;
+  color:white;
+  text-align:center;
+  padding:50px;
+}
+#location{
+  width:7%;
+  height:auto;
+}
+
+#section5 h1{
+font-size:26px;
+padding:0;
+margin:0;
+}
+
+#section5 img{
+width:13%;
+height:auto;
+padding-bottom:10px;
+}
+
+#section6{
+padding: 20px 0 20px 0;
+background-color: #1e2944;
+text-align:center;
+color:white;
+}
+
+.copyright{
+  text-align:center;
+  background-color:#1e2944;
+  color:white;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.copyright p{
+  opacity:0.7;
+}
+.copyright img{
+  height:36px;
+  opacity:0.7;
+}
+
+@media screen and (max-width: 990px) {
+  body{
+    font-size:24px;
+  }
+  h1{
+    font-size: 48px;
+    margin-bottom: 25px;
+  }
+    .header_image{
+      display:none;
+    }
+
+    .header p{
+      font-size: 36px;
+      line-height: 54px;
+    }
+    .header{
+      padding-bottom:80px;
+    }
+    .circle{
+      height: 200px;
+      width: 200px;
+      margin-bottom:50px;
+    }
+    #section3 img{
+      width:25%;
+    }
+    #section3 p{
+      width:100%;
+      font-size: 36px;
+      line-height: 54px;
+    }
+    p{
+      font-size: 36px;
+      line-height: 54px;
+    }
+    #menu{
+      display:none;
+    }
+    #section4{
+      padding:10%;
+    }
+    #section4 p{
+      line-height: 54px;
+    }
+    #location{
+      width: 20%;
+    }
+    .sections img{
+      width:35%;
+      height:auto;
+    }
+    #section5 h1{
+      font-size:48px;
+      margin-bottom:30px;
+    }
+    #section5 p{
+      font-size:48px;
+    }
+    .copyright img{
+    display:none;
+    }
+      }
